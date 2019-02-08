@@ -1,0 +1,32 @@
+{
+  "name": "tamanduapi",
+  "version": "1.0.0",
+  "description": "Uma Web API que implementa funções comuns relacionadas à UFABC, para utilização dos docentes e discentes :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduRenesto/tamanduapi-js.git"
+  },
+  "keywords": [
+    "api",
+    "ufabc"
+  ],
+  "author": "Edu Renesto",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/EduRenesto/tamanduapi-js/issues"
+  },
+  "homepage": "https://github.com/EduRenesto/tamanduapi-js#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.10",
+    "morgan": "^1.9.1",
+    "redis": "^2.8.0",
+    "request": "^2.88.0"
+  }
+}
